@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+	<div class="preload">
+		<form method="POST" action="listing.php">
+			<div class="logo">
+				<img src="images/logo1.png" style="margin:auto;">
+			</div>
+      <a href="login.php">
+         <div class="new_listing">
+           <h2><b>Administratoriui</b></h2>
+         </div>
+      </a>
+			<div class="selection-box">
+				<form method="POST" action="listing.php">
+				<div class="selection">
+					<div class="selection-name">
+						<h1 style="margin: 0; position: absolute; top: 50%; left: 50%; margin-right: -50%; transform: translate(-50%, -50%);  color: darkturquoise;">Kompiuteriai</h1>
+						<input type="submit" hidden>
+						<input type="hidden" name="selected" value="0">
+					</div>
+					<input type="image" src="images/computer.jpg" style="width:100%;">
+				</div>
+				</form>
+				
+				<div class="selection">
+					<form method="POST" action="listing.php">
+					<div class="selection-name">
+						<h1 style="margin: 0; position: absolute; top: 50%; left: 50%; margin-right: -50%; transform: translate(-50%, -50%);  color: darkturquoise;">Telefonai</h1>
+						<input type="submit" hidden>
+						<input type="hidden" name="selected" value="1">
+					</div>
+					<input type="image" src="images/phone.jpg" style="width:100%;">
+				</div>
+				</form>
+				<div class="selection">
+					<form method="POST" action="listing.php">
+					<div class="selection-name">
+						<h1 style="margin: 0; position: absolute; top: 50%; left: 50%; margin-right: -50%; transform: translate(-50%, -50%);  color: darkturquoise;">Konsolės</h1>
+						<input type="submit" hidden>
+						<input type="hidden" name="selected" value="2">
+					</div>
+					<input type="image" src="images/console.jpg" style="width:100%;">
+				</div>
+				</form>
+				<div class="selection">
+					<form method="POST" action="listing.php">
+					<div class="selection-name">
+						<h1 style="margin: 0; position: absolute; top: 50%; left: 50%; margin-right: -50%; transform: translate(-50%, -50%);  color: darkturquoise;">Navigacijos</h1>
+						<input type="submit" hidden>
+						<input type="hidden" name="selected" value="3">
+					</div>
+					<input type="image" src="images/navigation.jpg" style="width:100%;">
+				</div>
+				</form>
+				<div class="selection-text-border">
+					<div class="selection-text">
+						<h2 style="margin: 0; position: absolute; top: 50%; left: 50%; margin-right: -50%; transform: translate(-50%, -50%); color: #333;"><b>PASIRINKITE KATEGORIJĄ</h2>
+					</div>
+				</div>
+			</div>
+			<div class="copyrightas">
+				Visos teisės saugomos nežinomos organizacijos, kuri pagal įdėją turėtų saugoti puslapį ❤
+			</div>
+		</form>
+	</div>
+	</body>
+</html>
